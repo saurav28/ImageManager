@@ -60,9 +60,9 @@ function listFolderFiles($dir){
 ?>
 
 <form action="upload.php" method="post" enctype="multipart/form-data">
-    <br><br> Select image to upload: <br><br>
-    <input type="file" name="fileToUpload" id="fileToUpload"> <br> <br>
-    <input type="submit" value="Upload Image" name="submit">
+    <br><br> <center>Select images to upload: </center><br><br>
+    <Center><input type="file" name="fileToUpload" id="fileToUpload"></Center> <br> <br>
+    <Center><input type="submit" value="Upload Image" name="submit"></Center>
 </form>
 
 
